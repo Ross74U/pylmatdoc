@@ -1,0 +1,14 @@
+[package]
+name = "lmatdocs"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "lmatdoc"
+crate-type = ["cdylib"]
+
+[dependencies]
+docx-rs = "0.4"
+[dependencies.pyo3]
+version = "0.24.0"
+features = ["extension-module"]
