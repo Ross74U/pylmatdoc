@@ -12,7 +12,7 @@ _Underlined_
 ```
 
 ## Usage
-```
+``` python
 import lmatdoc
 
 teststring : str = """
